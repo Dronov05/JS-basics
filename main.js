@@ -89,5 +89,30 @@
 
 
 
-//*** 8 Функции 1:22:54 
+//*** 8 Функции
+
+// function calculateAge(year) {
+//    return 2023 - year
+// }
+
+// const myAge = calculateAge(1991)
+// console.log(myAge);
+
+// function logInfoAbout(name, year) {
+//    const age = calculateAge(year)
+//    if (age > 0) {
+//       console.log('Человек по имени ' + name + ' сейчас имеет возраст ' + age);
+//    } else {
+//       console.log('Год указан неверно!')
+//    }
+
+// }
+
+
+// logInfoAbout('Максим', 1991)
+// logInfoAbout('Илона', 1995)
+// logInfoAbout('Илона', 2024)
+
+
+
 
