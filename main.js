@@ -113,6 +113,8 @@
 // logInfoAbout('Илона', 1995)
 // logInfoAbout('Илона', 2024)
 
-
-
-
+function checkAge(age) {
+   return (age > 18) ? true : confirm('dfgdfg');
+}
+checkAge(5)
+console.log(checkAge(5))
