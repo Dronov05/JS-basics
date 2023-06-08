@@ -115,34 +115,5 @@
 
 // 1:28:57
 
-function pow(x, n) {
-   let pow = x ** n
-   console.log(pow);
-   return pow
-}
-
-let x = prompt('x?', '')
-let n = prompt('n?', '')
-if (n < 1) {
-   alert(`Степень ${n} не поддерживается, используйте натурально число`)
-} else {
-   alert(pow(x, n))
-}
-'10'
-   - 1
-1
-2
-6
-'9px'
-'$45'
-2
-NaN
-' -9 5'
-   - 14
-1
-NaN
-   - 2
-
-
 
 
