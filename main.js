@@ -115,15 +115,8 @@
 
 // 1:28:57
 
-let age = prompt('Сколько вам лет?', '')
-if (age < 18) {
-   function welcome() {
-      alert('Привет')
-   }
-   welcome()
-} else {
-   function welcome() {
-      alert('Здравствуйте')
-   }
-   welcome()
+let sum = (a, b) => {
+   let result = a + b
+   return result
 }
+console.log(sum(2, 2));
