@@ -115,8 +115,14 @@
 
 // 1:28:57
 
-let sum = (a, b) => {
-   let result = a + b
-   return result
+function ask(question, yes, no) {
+   if (confirm(question)) yes()
+   else no()
 }
-console.log(sum(2, 2));
+
+ask(
+   'Вы согласны?',
+   () => alert('Вы согласились!'),
+   () => alert('Вы отменили выполнение.'),
+
+)
