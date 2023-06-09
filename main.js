@@ -115,5 +115,15 @@
 
 // 1:28:57
 
-
-
+let age = prompt('Сколько вам лет?', '')
+if (age < 18) {
+   function welcome() {
+      alert('Привет')
+   }
+   welcome()
+} else {
+   function welcome() {
+      alert('Здравствуйте')
+   }
+   welcome()
+}
