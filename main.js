@@ -115,14 +115,15 @@
 
 // 1:28:57
 
-let user = {
-   name: 'Max',
-   age: 32,
+
+let salaries = {
+   // John: 100,
+   // Ann: 160,
+   // Pete: 130,
 }
-user.isAdmin = true
-delete user.age
-user['likes birds'] = true
-console.log(user)
-console.log(user.age)
-console.log(user.name)
-console.log(user['likes birds'])
+
+let sum = 0
+for (let key in salaries) {
+   sum += salaries[key]
+}
+console.log(sum)
