@@ -115,14 +115,6 @@
 
 // 1:28:57
 
-function ask(question, yes, no) {
-   if (confirm(question)) yes()
-   else no()
-}
-
-ask(
-   'Вы согласны?',
-   () => alert('Вы согласились!'),
-   () => alert('Вы отменили выполнение.'),
-
-)
+console.log(typeof (5))
+console.log('Ki')
+console.log(5)
