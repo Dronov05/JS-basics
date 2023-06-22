@@ -115,6 +115,14 @@
 
 // 1:28:57
 
-console.log(typeof (5))
-console.log('Ki')
-console.log(5)
+let user = {
+   name: 'Max',
+   age: 32,
+}
+user.isAdmin = true
+delete user.age
+user['likes birds'] = true
+console.log(user)
+console.log(user.age)
+console.log(user.name)
+console.log(user['likes birds'])
